@@ -1,0 +1,244 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	
+}
+
+.nonselect{
+	/**
+	* Для эксплорера
+	*/
+	-ms-user-select: none;
+
+	/**
+	* Для мозилы
+	*/
+	-moz-user-select: none;
+
+	/**
+	* Для конкверора
+	*/
+	-khtml-user-select: none;
+
+	/**
+	* Для Сафари и Хрома
+	*/
+	-webkit-user-select: none;
+}
+
+html{
+	
+	overflow: hidden;
+}
+body{
+	height: 100vh;
+	width: 100vw;
+}
+
+.backgroundf{
+	position:absolute;
+	top: 100px;
+	left: -10px;
+	transform: rotate(20deg);
+	z-index:-1;
+	height: 500px;
+	width: 900px;
+}
+
+.login-page {
+	width: 300px;
+	
+	/*margin: 0 auto;*/
+	position:relative;
+	/*top: calc(50% - 145px);*/
+	top:50%;
+	left: 61.8%;
+	margin-left:-150px;
+	margin-top: -217px;
+	
+}
+.login-info{
+	margin: 15px 0;
+	text-align: center;
+	font-family: Arial, "Roboto", sans-serif;
+	font-size: 9pt;
+	background: white;
+	box-shadow: 0 0 18px 10px white;
+	
+}
+
+.mesage_error{
+	color: #bb0000;
+}
+
+.success_message{
+	color: #0e8f0e;
+}
+
+.error-message{
+	margin: 0 0 15px 0;
+	overflow: hidden;
+	text-align: center;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	margin: 10px auto;
+	width: 100%;
+	text-align: center;
+	height: 20px;
+}
+
+.footer a{
+	text-decoration: none;
+	margin: 0 0.2em;
+	font-family: "Roboto", sans-serif;
+	font-size: 11pt;
+	color: #006666;
+}
+
+.footer a:hover{
+	color: #00aaaa;
+}
+
+.checkboxelem{
+	width: 100%;
+	padding: 0 10px 0 10px;
+	outline: 0;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	display: inline-block;
+	font-size: 14px;
+	font-family: Arial;
+	color: #777;
+	text-align: left;
+}
+
+.checkboxelem input[type="checkbox"]{
+	margin: 0 5px 0 0;
+}
+
+.form {
+	position: relative;
+	z-index: 1;
+	background: #FFFFFF;
+	max-width: 360px;
+	margin: 0 auto;
+	padding: 40px;
+	text-align: center;
+	box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.1), 0 5px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.form input {
+	font-family: Open Sans, Arial, "Roboto", sans-serif;
+	outline: 0;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.form input[type="text"], .form input[type="password"]{
+	border: 1px solid #aaa;
+}
+
+.form input[type="text"]:hover, .form input[type="password"]:hover{
+	border: 1px solid #0aa;
+}
+
+.form input[type="text"]:focus, .form input[type="password"]:focus{
+	border: 1px solid #066;
+}
+
+.form .button {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #006666;
+	width: 100%;
+	border: 0;
+	padding: 10px;
+	color: #FFFFFF;
+	font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+.form .button:hover,.form .button:active,.form .button:focus {
+	background: #00aaaa;
+}
+
+.form .message {
+	font-family: Arial;
+	margin: 15px 0 0;
+	color: #b3b3b3;
+	font-size: 9pt;
+}
+.form .message a {
+	color: #066;
+	text-decoration: none;
+}
+.form .register-form {
+	display: none;
+}
+.container {
+	position: relative;
+	z-index: 1;
+	max-width: 300px;
+	margin: 0 auto;
+}
+.container:before, .container:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.container .info {
+	margin: 50px auto;
+	text-align: center;
+}
+.container .info h1 {
+	margin: 0 0 15px;
+	padding: 0;
+	font-size: 36px;
+	font-weight: 300;
+	color: #1a1a1a;
+}
+.container .info span {
+	color: #4d4d4d;
+	font-size: 12px;
+}
+.container .info span a {
+	color: #000000;
+	text-decoration: none;
+}
+.container .info span .fa {
+	color: #EF3B3A;
+}
+
+#signature{
+	text-align:center;
+	width: 200px;
+	margin: 0 auto;
+	font-size: 20pt;
+	font-weight: 700;
+	position: absolute;
+	top: 15%;
+	left: 80%;
+	color: rgba(0,150,0,0.15);
+}
+
+body {
+	/*background: #f5f3f2; /* fallback for old browsers 
+	/*background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+	background: -moz-linear-gradient(right, #76b852, #8DC26F);
+	background: -o-linear-gradient(right, #76b852, #8DC26F);
+	background: linear-gradient(to left, #76b852, #8DC26F);*/
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;      
+}
